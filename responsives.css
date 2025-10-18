@@ -1,0 +1,429 @@
+@media (max-width: 480px) {
+ 
+    .header{
+      padding: 2px;
+    }
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 15px;
+  }
+ 
+  .logo {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+ 
+  .nav-links {
+    flex-direction: row;
+    gap: 8px;
+    width: 100%;
+  }
+ 
+  .nav-links li a {
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+  }
+ 
+  /* Hero Section */
+  .hero {
+    flex-direction: column;
+    padding: 100px 20px 40px;
+    justify-content: center;
+    text-align: center;
+  }
+ 
+  .hero-text {
+    margin: 0;
+    max-width: 100%;
+  }
+ 
+  .hero-text h1 {
+    margin-top: 100px;
+    font-size: 32px;
+    white-space: normal;
+  }
+ 
+  .hero-text .highlight {
+    font-size: 28px;
+  }
+ 
+  .hero-text p {
+    font-size: 18px;
+  }
+ 
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+ 
+  .btn-primary, .btn-outline {
+    font-size: 18px;
+    width: 80%;
+    text-align: center;
+  }
+ 
+  .socials {
+    margin-top: 40px;
+    justify-content: center;
+  }
+ 
+  .socials a {
+    width: 40px;
+    height: 40px;
+  }
+ 
+  .Me {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+ 
+  .Me img {
+    width: 250px;
+  }
+ 
+  /* About */
+  .about {
+    flex-direction: column;
+    margin-left: 0;
+    padding: 60px 20px;
+  }
+ 
+  .about-container {
+    flex-direction: column;
+    margin-right: 0;
+    text-align: center;
+  }
+ 
+  .about-image img {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+ 
+  .about-text h2 {
+    font-size: 32px;
+  }
+ 
+  .about-text p {
+    font-size: 18px;
+  }
+ 
+  /* Hobbies */
+  .hobbies {
+    padding: 60px 20px;
+  }
+ 
+  .hobbies h2 {
+    font-size: 32px;
+  }
+ 
+  .hobbies-grid {
+    grid-template-columns: 1fr;
+  }
+ 
+  .hobby-item img {
+    width: 100px;
+  }
+ 
+  .hobby-item span {
+    font-size: 20px;
+  }
+ 
+  /* Skills */
+  .skills {
+    padding: 60px 20px;
+  }
+ 
+  .skills h2 {
+    font-size: 32px;
+  }
+ 
+  .skill-card {
+    max-width: 100%;
+  }
+ 
+  .skill-card h3 {
+    font-size: 24px;
+  }
+ 
+  .skill-card p {
+    font-size: 18px;
+  }
+ 
+  /* Gallery */
+  .gallery h2 {
+    font-size: 32px;
+  }
+ 
+  .gallery-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+ 
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+ 
+  /* Services */
+  .services h2 {
+    font-size: 32px;
+  }
+ 
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .service-card {
+    max-width: 100%;
+  }
+ 
+  /* Reviews */
+  .reviews h2 {
+    font-size: 32px;
+  }
+  .review-container{
+    padding: 80px 0;
+  }
+ 
+  .review-card {
+    max-width: 60%;
+    margin-bottom: 20px;
+  }
+ 
+  /* Footer */
+  .footer {
+    padding: 40px 20px;
+  }
+ 
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+ 
+  .footer-about h2 {
+    position: static;
+    text-align: center;
+  }
+ 
+  .footer-about p {
+    text-align: center;
+  }
+ 
+  .footer-links ul {
+    text-align: center;
+  }
+ 
+  .footer-contact p {
+    text-align: center;
+  }
+ 
+  .footer-socials {
+    text-align: center;
+  }
+}
+ 
+/* ===== TABLET VIEW (max-width: 768px) ===== */
+@media (max-width: 768px) {
+ 
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+ 
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+ 
+  .nav-links li a {
+    font-size: 15px;
+  }
+ 
+  /* Hero */
+  .hero {
+    flex-direction: column;
+    margin-top: 40px;
+    text-align: center;
+    padding: 120px 40px 60px;
+  }
+ 
+  .hero-text {
+    margin: 0;
+  }
+ 
+  .hero-text h1 {
+    font-size: 48px;
+  }
+ 
+  .hero-text h1 p {
+    font-size: 48px;
+  }
+ 
+  .hero-text .highlight {
+    font-size: 15px;
+  }
+ 
+  .Me {
+    margin: 40px 0 0;
+  }
+ 
+  .Me img {
+    width: 350px;
+  }
+ 
+  /* About */
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+ 
+  .about-image img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+ 
+  .about-text h2 {
+    font-size: 42px;
+  }
+ 
+  .about-text p {
+    font-size: 20px;
+  }
+ 
+  .socials{
+      justify-content: center;
+  }
+ 
+  /* Hobbies */
+  .hobbies-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+ 
+  /* Skills */
+  .skills-container {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+ 
+  .skill-card {
+    max-width: 300px;
+  }
+  .skill-card h3{
+    font-size: 25px;
+  }
+ 
+  /* Gallery */
+  .gallery-container {
+    max-width: 600px;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+ 
+  .gallery-item:nth-child(3) {
+    grid-column: auto;
+    justify-content: center;
+  }
+ 
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+}
+  /* Services */
+  .services-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+ 
+  .service-card {
+    max-width: 320px;
+  }
+ 
+  /* Footer */
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+ 
+  .footer-about h2 {
+    position: static;
+  }
+ 
+ 
+/* ===== SMALL LAPTOP (max-width: 1024px) ===== */
+@media (max-width: 1024px) {
+ 
+  .navbar {
+    padding: 0 30px;
+  }
+ 
+  .nav-links li a {
+    font-size: 15px;
+    padding: 6px 15px;
+  }
+ 
+  .hero {
+    padding: 100px 60px;
+  }
+ 
+  .hero-text h1 {
+    font-size: 32px;
+  }
+ 
+  .hero-text .highlight {
+    font-size: 40px;
+  }
+  .hero-text p{
+    font-size: 20px;
+  }
+  .Me{
+    margin-left: 1px;
+  }
+  .Me img{
+    margin-left: 15px;
+  }
+ 
+  .about {
+    padding: 80px 60px;
+  }
+ 
+  .about-image img {
+    width: 350px;
+  }
+  .gallery-item img{
+    width: 400px;
+    height: 200px;
+  }
+  .reviews-container{
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+  }
+ 
+  .skills-container,
+  .services-container {
+    gap: 25px;
+  }
+ 
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+ 
+  .footer-container {
+    gap: 80px;
+  }
+}
