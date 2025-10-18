@@ -705,6 +705,7 @@ body {
 .nav-links a:hover,
 .nav-links a.active {
   color: #ff0000;
+   border: 2px solid #ff0000;
 }
 
 .dropdown .dropbtn {
@@ -740,7 +741,7 @@ w
   color: #111;
 }
 
-/* Hover dropdown (desktop) */
+
 .dropdown:hover .dropdown-content {
   display: block;
   opacity: 1;
@@ -794,7 +795,6 @@ w
     padding: 12px 20px;
   }
 
-  
   .dropdown-content {
     position: static;
     background: #1a1a1a;
@@ -814,17 +814,11 @@ w
   }
 }
 
-
-
-
-
-
 @media (max-width: 768px) {
   .gallery-images {
-    grid-template-columns: 1fr; /* 1 per row on tablets */
+    grid-template-columns: 1fr; 
   }
 }
-
 @media (max-width: 480px) {
   .gallery {
     padding: 40px 20px;
@@ -838,12 +832,6 @@ w
     max-width: 100%;
   }
 }
-
-
-
-
-
-/* Navbar container */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -869,9 +857,6 @@ w
   cursor: pointer;
 }
 
-/* ========================
-   📱 Mobile View
-======================== */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -879,11 +864,9 @@ w
     align-items: center;
     text-align: center;
   }
-
   .logo {
     margin-bottom: 10px;
   }
-
   .menu-toggle {
     margin-top: 5px;
   }
