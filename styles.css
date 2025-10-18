@@ -844,7 +844,7 @@ w
   color: #000000;
 }
 
-/* ===== IMAGE GRID (2×2) ===== */
+
 .gallery-images {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 per row */
@@ -860,13 +860,13 @@ w
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect */
+
 .gallery-images img:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0,0,0,0.5);
 }
 
-/* ===== RESPONSIVE BEHAVIOR ===== */
+
 @media (max-width: 768px) {
   .gallery-images {
     grid-template-columns: 1fr; /* 1 per row on tablets */
