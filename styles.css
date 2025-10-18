@@ -359,7 +359,7 @@ body {
 }
 
 /* ==== GALLERY SECTION ==== */
-  
+
 .gallery {
   padding: 60px 40px;
   background-color: #000000;
@@ -836,5 +836,55 @@ w
 
   .gallery-images img {
     max-width: 100%;
+  }
+}
+
+
+
+
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  padding: 15px 30px;
+  color: white;
+}
+
+/* Logo styling */
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.logo span {
+  color: red; /* “SM” */
+}
+
+/* Hamburger menu toggle */
+.menu-toggle {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* ========================
+   📱 Mobile View
+======================== */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .menu-toggle {
+    margin-top: 5px;
   }
 }
